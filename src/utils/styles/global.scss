@@ -1,0 +1,60 @@
+$mediaDesktop: 1260px;
+$mediaTablet: 960px;
+$mediaMobile: 480px;
+
+h1 {
+  font-size: 32px;
+  line-height: 1.7;
+
+  @media screen and (min-width: $mediaMobile) and (max-width: $mediaTablet) {
+    font-size: 36px;
+  }
+
+  @media screen and (min-width: $mediaTablet) {
+    font-size: 41px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.7;
+
+  @media screen and (min-width: $mediaMobile) and (max-width: $mediaTablet) {
+    font-size: 28px;
+  }
+
+  @media screen and (min-width: $mediaTablet) {
+    font-size: 34px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.7;
+
+  @media screen and (min-width: $mediaMobile) and (max-width: $mediaTablet) {
+    font-size: 22px;
+  }
+
+  @media screen and (min-width: $mediaTablet) {
+    font-size: 28px;
+  }
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 1.7;
+
+  @media screen and (min-width: $mediaTablet) {
+    font-size: 26px;
+  }
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+
+  @media screen and (min-width: $mediaTablet) {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,44 @@
+@import './global.scss';
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.to-end {
+  justify-content: flex-end;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-mb {
+  @media screen and (max-width: $mediaMinWidth) {
+    text-align: center;
+  }
+}
+
+.section {
+  padding: 40px 0;
+
+  @media screen and (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
+    padding: 50px 0;
+  }
+
+  @media screen and (min-width: $mediaTabletWidth) {
+    padding: 60px 0;
+  }
+}
+
+.padding-bottom-sm {
+  padding-bottom: 12px;
+}
