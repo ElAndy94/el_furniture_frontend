@@ -1,4 +1,4 @@
-@import './global.scss';
+// @import './global.scss';
 
 .wrapper {
   max-width: 1280px;
@@ -22,7 +22,7 @@
 }
 
 .center-mb {
-  @media screen and (max-width: $mediaMinWidth) {
+  @media screen and (max-width: $mediaMobile) {
     text-align: center;
   }
 }
@@ -30,11 +30,11 @@
 .section {
   padding: 40px 0;
 
-  @media screen and (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
+  @media screen and (min-width: $mediaMobile) and (max-width: $mediaTablet) {
     padding: 50px 0;
   }
 
-  @media screen and (min-width: $mediaTabletWidth) {
+  @media screen and (min-width: $mediaTablet) {
     padding: 60px 0;
   }
 }
