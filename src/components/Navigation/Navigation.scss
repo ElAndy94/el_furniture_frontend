@@ -1,0 +1,111 @@
+@import '../../utils/styles/global.scss';
+
+header {
+  background-color: #223344;
+  color: #fff;
+
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+
+    @media screen and (min-width: $mediaMobile) {
+      padding: 26px 0;
+    }
+
+    h3 {
+      width: 20%;
+    }
+
+    .nav-list {
+      display: flex;
+      flex-flow: row;
+      justify-content: flex-end;
+      width: 80%;
+    }
+
+    @media screen and (max-width: 768px) {
+      position: relative;
+
+      h3 {
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 101;
+      }
+
+      .nav-list {
+        position: fixed;
+        background: #223344;
+        height: 1600px;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(100px at 90% -10%);
+        -webkit-clip-path: circle(100px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+        z-index: 100;
+      }
+
+      .line {
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        margin: 5px;
+        transition: all 0.5s ease-out;
+      }
+
+      /* Rotate first bar */
+      & .modified-line-01 {
+        -webkit-transform: rotate(-45deg) translate(-4px, 6px);
+        transform: rotate(-45deg) translate(-4px, 6px);
+      }
+
+      /* Fade out the second bar */
+      & .modified-line-02 {
+        opacity: 0;
+      }
+
+      /* Rotate last bar */
+      & .modified-line-03 {
+        -webkit-transform: rotate(45deg) translate(-5px, -8px);
+        transform: rotate(45deg) translate(-5px, -8px);
+      }
+
+      .burger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 101;
+      }
+
+      .nav-list.open {
+        clip-path: circle(1900px at 90% -10%);
+        -webkit-clip-path: circle(1900px at 90% -10%);
+        pointer-events: all;
+      }
+
+      .nav-list li:nth-child(1) {
+        position: absolute;
+        top: 900px;
+        left: 20px;
+      }
+
+      .nav-list li:nth-child(2) {
+        position: absolute;
+        top: 960px;
+        left: 20px;
+      }
+
+      .nav-list li:nth-child(3) {
+        position: absolute;
+        top: 1020px;
+        left: 20px;
+      }
+    }
+  }
+}
