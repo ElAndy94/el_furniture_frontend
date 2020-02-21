@@ -13,8 +13,9 @@ header {
       padding: 26px 0;
     }
 
-    h3 {
+    .header__name {
       width: 20%;
+      font-size: 28px;
     }
 
     .nav-list {
@@ -27,7 +28,8 @@ header {
     @media screen and (max-width: 768px) {
       position: relative;
 
-      h3 {
+      .header__name {
+        font-size: 20px;
         width: 80%;
         position: absolute;
         left: 10%;

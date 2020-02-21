@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <div className='wrapper'>
         <nav>
-          <h3>El Furniture</h3>
+          <p className='header__name'>El Furniture</p>
           <div
             className='burger'
             onClick={() => {

@@ -1,0 +1,32 @@
+@import '../../utils/styles/global.scss';
+
+footer {
+  background-color: #223344;
+  color: #fff;
+  padding: 40px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  @media screen and (min-width: $mediaMobile) and (max-width: $mediaTablet) {
+    padding: 60px 0;
+  }
+
+  @media screen and (min-width: $mediaTablet) {
+    padding: 80px 0;
+  }
+
+  .footer-header {
+    margin-bottom: 12px;
+  }
+
+  .footer-container {
+    justify-content: space-between;
+  }
+
+  .footer-ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+}
