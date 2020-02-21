@@ -1,7 +1,9 @@
 import React from 'react';
 
 const FurnitureItem = props => {
-  const onClick = () => {};
+  const onClick = id => {
+    console.log(id);
+  };
 
   return (
     <li onClick={() => onClick(props.itemId)}>

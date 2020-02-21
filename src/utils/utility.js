@@ -8,10 +8,6 @@ export const updateObject = (oldObject, updatedProperties) => {
 };
 
 export const createItems = () => {
-  let newData;
-  newData = data.default.stores.map(item => {
-    return item;
-  });
-  console.log(newData);
-  return newData;
+  // return data.default.stores.map(item => item);
+  return data.default.stores;
 };
