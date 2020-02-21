@@ -2,6 +2,7 @@ import React from 'react';
 
 import { createItems } from '../../utils/utility';
 import FurnitureItem from '../../components/FurnitureItem/FurnitureItem';
+import './Furniture.scss';
 
 function Furniture() {
   let furnitureItems = createItems().map(item => {
@@ -20,7 +21,7 @@ function Furniture() {
     <section>
       <div className='wrapper'>
         <h1>Furniture</h1>
-        <ul>{furnitureItems}</ul>
+        <ul className='furniture__container'>{furnitureItems}</ul>
       </div>
     </section>
   );

@@ -4,9 +4,13 @@ footer {
   background-color: #223344;
   color: #fff;
   padding: 40px 0;
-  position: absolute;
-  bottom: 0;
+  position: fixed;
   width: 100%;
+  left: 0;
+  bottom: 0;
+  // position: absolute;
+  // clear: both;
+  // height: 60px;
 
   @media screen and (min-width: $mediaMobile) and (max-width: $mediaTablet) {
     padding: 60px 0;
