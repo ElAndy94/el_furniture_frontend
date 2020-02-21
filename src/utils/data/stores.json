@@ -1,0 +1,68 @@
+{
+  "stores": [
+    {
+      "_id": "$scsdcse4erf",
+      "name": "Riggy Ram",
+      "location": "M22 6KD",
+      "openingTimes": [
+        {
+          "monday": "7 am - 11 pm",
+          "tuesday": "7 am - 11 pm",
+          "wednesday": "7 am - 11 pm",
+          "thursday": "7 am - 11 pm",
+          "friday": "7 am - 11 pm",
+          "saturday": "7 am - 11 pm",
+          "sunday": "10 am - 4 pm"
+        }
+      ]
+    },
+    {
+      "_id": "$ukoip097",
+      "name": "Oberdon",
+      "location": "M15 23D",
+      "openingTimes": [
+        {
+          "monday": "7 am - 11 pm",
+          "tuesday": "7 am - 11 pm",
+          "wednesday": "7 am - 11 pm",
+          "thursday": "7 am - 11 pm",
+          "friday": "7 am - 11 pm",
+          "saturday": "7 am - 11 pm",
+          "sunday": "10 am - 4 pm"
+        }
+      ]
+    },
+    {
+      "_id": "$fdvy5y65",
+      "name": "Classic Mandria",
+      "location": "M29 P9D",
+      "openingTimes": [
+        {
+          "monday": "7 am - 11 pm",
+          "tuesday": "7 am - 11 pm",
+          "wednesday": "7 am - 11 pm",
+          "thursday": "7 am - 11 pm",
+          "friday": "7 am - 11 pm",
+          "saturday": "7 am - 11 pm",
+          "sunday": "10 am - 4 pm"
+        }
+      ]
+    },
+    {
+      "_id": "$r45tew",
+      "name": "Pinchy Strick",
+      "location": "M48 S3W",
+      "openingTimes": [
+        {
+          "monday": "7 am - 11 pm",
+          "tuesday": "7 am - 11 pm",
+          "wednesday": "7 am - 11 pm",
+          "thursday": "7 am - 11 pm",
+          "friday": "7 am - 11 pm",
+          "saturday": "7 am - 11 pm",
+          "sunday": "10 am - 4 pm"
+        }
+      ]
+    }
+  ]
+}
