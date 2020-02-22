@@ -5,7 +5,7 @@ import FurnitureItem from '../../components/FurnitureItem/FurnitureItem';
 import './Furniture.scss';
 
 function Furniture() {
-  let furnitureItems = createItems().map(item => {
+  let furnitureItems = createItems().map((item, index) => {
     return (
       <FurnitureItem
         key={item._id}

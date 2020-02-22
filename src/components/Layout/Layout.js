@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Navigation from '../Navigation/Navigation';
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 import './Layout.scss';
 
 function Layout(props) {
@@ -9,7 +9,7 @@ function Layout(props) {
     <React.Fragment>
       <Navigation />
       <main className='Content'>{props.children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }
