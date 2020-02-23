@@ -1,3 +1,24 @@
+@import '../../utils/styles/global.scss';
+
 .furniture__item {
-  flex: 1 0 33%;
+  margin: 20px 0;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  // background-color: red;
+  // flex: 1 0 33%;
+
+  @media screen and (min-width: $mediaTablet) {
+    margin: 20px 10px;
+    flex: 1 0 31%;
+    max-width: 31%;
+  }
+
+  &--name,
+  &--text {
+    padding-left: 24px;
+  }
+
+  &--image {
+    height: 200px;
+    width: 100%;
+  }
 }

@@ -20,7 +20,7 @@ function Furniture() {
   return (
     <section>
       <div className='wrapper'>
-        <h1>Furniture</h1>
+        <h1 className='furniture__header center-mb-left-lg'>Furniture</h1>
         <ul className='furniture__container'>{furnitureItems}</ul>
       </div>
     </section>

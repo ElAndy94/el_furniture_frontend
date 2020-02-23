@@ -5,6 +5,7 @@ $mediaMobile: 480px;
 h1 {
   font-size: 32px;
   line-height: 1.7;
+  font-weight: 400;
 
   @media screen and (min-width: $mediaMobile) and (max-width: $mediaTablet) {
     font-size: 36px;
@@ -18,6 +19,7 @@ h1 {
 h2 {
   font-size: 24px;
   line-height: 1.7;
+  font-weight: 400;
 
   @media screen and (min-width: $mediaMobile) and (max-width: $mediaTablet) {
     font-size: 28px;
@@ -31,6 +33,7 @@ h2 {
 h3 {
   font-size: 20px;
   line-height: 1.7;
+  font-weight: 400;
 
   @media screen and (min-width: $mediaMobile) and (max-width: $mediaTablet) {
     font-size: 22px;
@@ -44,6 +47,7 @@ h3 {
 h4 {
   font-size: 20px;
   line-height: 1.7;
+  font-weight: 400;
 
   @media screen and (min-width: $mediaTablet) {
     font-size: 26px;

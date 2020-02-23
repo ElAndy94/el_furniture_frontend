@@ -11,11 +11,14 @@ const FurnitureItem = props => {
   return (
     <li className='furniture__item' onClick={() => onClick(props.itemId)}>
       <div>
-        <div>
-          <h3>{props.name}</h3>
-          <p>{props.location}</p>
-          <img src={image} style={{ height: '200px', width: '200px' }} />
-        </div>
+        <img
+          className='furniture__item--image'
+          src={image}
+          //   style={{ height: '200px', width: '200px' }}
+          alt='sofa'
+        />
+        <h3 className='furniture__item--name'>{props.name}</h3>
+        <p className='furniture__item--text'>{props.location}</p>
       </div>
     </li>
   );

@@ -27,6 +27,15 @@
   }
 }
 
+.center-mb-left-lg {
+  @media screen and (max-width: $mediaMobile) {
+    text-align: center;
+  }
+  @media screen and (min-width: $mediaTablet) {
+    text-align: left;
+  }
+}
+
 .section {
   padding: 40px 0;
 
