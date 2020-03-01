@@ -3,7 +3,7 @@ import { Link, withRouter } from 'react-router-dom';
 
 import './Footer.scss';
 
-function Footer() {
+const Footer = () => {
   let phantom = {
     display: 'block',
     padding: '20px',
@@ -72,6 +72,6 @@ function Footer() {
       </footer>
     </React.Fragment>
   );
-}
+};
 
 export default withRouter(Footer);

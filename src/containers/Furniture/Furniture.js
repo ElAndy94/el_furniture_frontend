@@ -4,7 +4,7 @@ import './Furniture.scss';
 import config from '../../config/config';
 import { createClient } from 'contentful-management';
 
-function Furniture() {
+const Furniture = () => {
   const [furniture, setFurniture] = useState([]);
 
   useEffect(() => {
@@ -48,10 +48,13 @@ function Furniture() {
     <section>
       <div className='wrapper'>
         <h1 className='furniture__header center-mb-left-lg'>Furniture</h1>
+        <p data-testid='ptag' className='fnacy-h1'>
+          Helloo!
+        </p>
         <ul className='furniture__container'>{furnitureItems}</ul>
       </div>
     </section>
   );
-}
+};
 
 export default Furniture;

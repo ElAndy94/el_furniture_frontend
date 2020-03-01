@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+const Home = () => {
   return (
     <section>
       <div className='wrapper'>
@@ -8,6 +8,6 @@ function Home() {
       </div>
     </section>
   );
-}
+};
 
 export default Home;

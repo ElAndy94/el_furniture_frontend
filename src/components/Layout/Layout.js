@@ -4,7 +4,7 @@ import Navigation from '../Navigation/Navigation';
 // import Footer from '../Footer/Footer';
 import './Layout.scss';
 
-function Layout(props) {
+const Layout = props => {
   return (
     <React.Fragment>
       <Navigation />
@@ -12,6 +12,6 @@ function Layout(props) {
       {/* <Footer /> */}
     </React.Fragment>
   );
-}
+};
 
 export default Layout;

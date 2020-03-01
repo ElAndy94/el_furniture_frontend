@@ -12,9 +12,9 @@ function App() {
     <Switch>
       <Route path='/' exact component={Home} />
       <Route path='/furniture' exact component={Furniture} />
-      <Route path='/stores' exact component={Stores} />
       <Route path='/about' exact component={About} />
       <Redirect to='/' />
+      {/* <Route path='/stores' exact component={Stores} /> */}
     </Switch>
   );
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutUs() {
+const AboutUs = () => {
   return (
     <section>
       <div className='wrapper'>
@@ -8,6 +8,6 @@ function AboutUs() {
       </div>
     </section>
   );
-}
+};
 
 export default AboutUs;
