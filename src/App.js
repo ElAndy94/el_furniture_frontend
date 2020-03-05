@@ -4,7 +4,7 @@ import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './containers/Home/Home';
 import Furniture from './containers/Furniture/Furniture';
-import Stores from './containers/Stores/Stores';
+// import Stores from './containers/Stores/Stores';
 import About from './containers/AboutUs/AboutUs';
 
 function App() {
